@@ -1,0 +1,62 @@
+body {
+            
+            background-image : url(puzzle_jigsaw_fragments_193346_3840x2400.jpg );
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            color: white;
+        }
+
+        .game-card {
+          
+            padding: 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            text-align: center;
+            width: 350px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        h1 { margin-bottom: 20px; font-size: 24px; }
+
+        input {
+            width: 80%;
+            padding: 12px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #015475;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #ff6b81;
+            transform: translateY(-2px);
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: 500;
+            min-height: 27px;
+        }
+
+       
